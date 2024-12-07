@@ -1,0 +1,27 @@
+.friend-container {
+  display: flex;
+  margin: 0px;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: space-around; /* Align items horizontally with space */
+}
+
+.friend-card {
+  /*margin: 0px;*/
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  flex-basis: 400px; /* Ensure the width of each card */
+  text-align: left;
+}
+.inside-friend-card {
+  margin: 0%;
+  /*background-color: black;*/
+}
+/*
+
+friends container is the div that is opens, when we click a button, phir, uske andar column ka size fix krke, multiple column bna linge of some fix size
+friend-card is the div jisme flex nhi h, inline bna diya sabko 
+//jo fetch ho rhe h one oject of array of object jo h woh h, friend-card..
+
+*/

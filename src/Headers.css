@@ -1,0 +1,30 @@
+header {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+header img {
+  width: 3rem;
+  object-fit: contain;
+}
+
+header h1 {
+  margin: 0;
+  color: #48d9f3;
+}
+header button {
+  background-color: #48d9f3; /* Blue background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding around the text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.1s; /* Smooth transition */
+}
+header p {
+  margin: 0;
+  color: #82c2ce;
+}
